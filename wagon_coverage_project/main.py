@@ -9,11 +9,12 @@ from src.coverage_selector import CoverageSelector
 from src.report_generator import ReportGenerator
 
 def main():
-    # Define paths
-    input_video_path = 'data/input_video/CCTV_HZBN_DHN_1_LEFT_UP_20251230_064707_fs.mp4'
-    output_dir = 'data/coaches'
-    frames_dir = 'data/frames'
-    reports_dir = 'data/reports'
+    # Define paths relative to the script directory
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    input_video_path = os.path.join(script_dir, 'data', 'input_video', 'CCTV_HZBN_DHN_1_LEFT_UP_20251230_064707_fs.mp4')
+    output_dir = os.path.join(script_dir, 'data', 'coaches')
+    frames_dir = os.path.join(script_dir, 'data', 'frames')
+    reports_dir = os.path.join(script_dir, 'data', 'reports')
     train_number = '12309'  # Example train number
 
     # Check if input video exists

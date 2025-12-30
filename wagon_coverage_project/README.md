@@ -91,4 +91,4 @@ This will process the video and generate the reports in `data/reports/`.
 ## Submission
 
 - Code: Submit via GitHub or zip file.
-- Demo: Screen record explaining features and upload to Google Drive.
+
