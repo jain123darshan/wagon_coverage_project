@@ -88,6 +88,5 @@ This will process the video and generate the reports in `data/reports/`.
 - Assumes side-view train videos.
 - Color validation is basic; may need refinement for complex scenarios.
 
-## Submission
 
-- Code: Submit via GitHub or zip file.
+
